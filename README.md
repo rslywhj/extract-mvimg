@@ -2,7 +2,9 @@
 顾名思义，从MVIMG照片中提取照片与视频文件（使用小米动态照片测试，理论上兼容符合MVIMG标准的其他照片）
 
 ## 适合Windows PowerShell使用的脚本
-  依赖于 exiftool 运行，请先安装好 [exiftool](https://exiftool.org/)。
+  依赖于 exiftool 运行，请先安装好 [exiftool](https://exiftool.org/)，并配置好环境变量。
+  >The Windows executable archives include Perl. Just download and un-zip the appropriate archive then double-click on "exiftool(-k).exe" to read the application documentation, drag-and-drop files and folders to view meta information, or rename to "exiftool.exe" for command-line use. Note that if you move the .exe to another folder, you must also move the "exiftool_files" folder to the same location.
+
 ## 使用方法：
     1.打开Windows Powershell
     2.cd 到脚本所在路径
